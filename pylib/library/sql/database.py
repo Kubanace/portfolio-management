@@ -11,15 +11,6 @@ from sqlalchemy.dialects.mssql import UNIQUEIDENTIFIER, BIT
 from datetime import date, datetime
 from typing import List, Optional
 
-CONNECTION_PARAMETERS = quote_plus(
-    "DRIVER={ODBC Driver 17 for SQL Server};"
-    "SERVER=P14N4S\\SQLEXPRESS;"
-    "DATABASE=DataMart;"
-    "SCHEMA=dbo;"
-    "Trusted_Connection=yes;"
-    "Encrypt=no"
-)
-
 Base = declarative_base()
 
 
