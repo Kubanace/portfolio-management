@@ -1,0 +1,56 @@
+
+# Yield Measures
+
+## Current Yield
+
+The current yield is simply the dollar interest (coupons) over the remaining life of a bond, divided by the price of the bond.
+
+## Yield-to-Maturity
+
+The yield-to-maturity of a bond is the yield that, given a bond present price, equates the discounted future cashflows to this present price.
+
+## Yield-to-Call
+
+## Yield for a Portfolio (Internal Rate of Return)
+
+## Yield Measure for Floating-Rate Securities
+
+# Bond Pricing
+
+# Total Return Analysis
+
+The total return is the yield that will make a bond's full price grow to the projected total future dollars (as projected by the investor) at the end of the investment horizon.
+
+## Steps to Calculate the Total Return
+
+The total return calculation requires the following to be specified:
+- An investment horizon
+- A reinvestment rate
+- A selling price for the bond at the end of the investment horizon
+
+Step 1: \
+Determine the total future dollars, as the sum of the projected sale price at the investment horizon and 
+$$\text{total future dollars = future coupons + interest-on-interest + projected bond sale price}$$
+
+- Compute the total coupon payments and the interest-on-interest based on an assumed reinvestment rate.
+
+$$\text{coupon + interest-on-interest = semiannual coupon}\times \left[\frac{\lbrace(1+r)^h -1 \rbrace}{r}\right]$$
+
+&nbsp;&nbsp;&nbsp;&nbsp; where \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$h = \text{lenght of the investment horizon (semiannual periods)}$ \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$r = \text{assumed semiannual reinvestment rate}$
+
+- Determine the projected sale price at the end of the investment horizon (will depend on the projected yield of comparable bonds at that time)
+
+Step 2: \
+The semiannual total return can be calculated as follows:
+$$\left(\frac{\text{total future dollars}}{\text{purchase price of bond}}\right)^{1/h}-1$$
+
+The total return on a bond-equivalent basis would be 2x the resulting interest rate.
+
+## Pros and Cons of Total Return
+### Pros
+
+### Cons
+1. Requires assumptions on reinvestment rates and future yields
+2. Forces the portfolio manager to determine an investment horizon
